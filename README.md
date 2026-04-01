@@ -146,7 +146,7 @@ Le projet suit une architecture **MVC stricte** :
 
 ```bash
 git clone [https://github.com/votre-groupe/stage4all.git](https://github.com/votre-groupe/stage4all.git)
-cd stage4all/site
+cd Projet-Web-Web4All-CESI/site
 ```
 
 ### 2. Installer les dépendances
