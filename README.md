@@ -145,7 +145,7 @@ Le projet suit une architecture **MVC stricte** :
 ### 1. Cloner le dépôt
 
 ```bash
-git clone [https://github.com/Alexis-SGL/Projet-Web-Web4All-CESI/](https://github.com/Alexis-SGL/Projet-Web-Web4All-CESI/)
+git clone https://github.com/Alexis-SGL/Projet-Web-Web4All-CESI/
 cd Projet-Web-Web4All-CESI/site
 ```
 
