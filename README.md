@@ -145,7 +145,7 @@ Le projet suit une architecture **MVC stricte** :
 ### 1. Cloner le dépôt
 
 ```bash
-git clone [https://github.com/votre-groupe/stage4all.git](https://github.com/votre-groupe/stage4all.git)
+git clone [https://github.com/Alexis-SGL/Projet-Web-Web4All-CESI/](https://github.com/Alexis-SGL/Projet-Web-Web4All-CESI/)
 cd Projet-Web-Web4All-CESI/site
 ```
 
@@ -177,7 +177,6 @@ APP_ENV=DEVELOPPEMENT
 ### 4. Créer la base de données
 
 ```bash
-mysql -u root -p stage4all < config/structure.sql
 mysql -u root -p stage4all < config/donnees.sql
 ```
 
@@ -186,9 +185,9 @@ mysql -u root -p stage4all < config/donnees.sql
 ```apache
 <VirtualHost *:80>
     ServerName stage4all.local
-    DocumentRoot /var/www/stage4all/site/public
+    DocumentRoot /var/www/Projet-Web-Web4All-CESI/site/public
 
-    <Directory /var/www/stage4all/site/public>
+    <Directory /var/www/Projet-Web-Web4All-CESI/site/public>
         AllowOverride All
         Require all granted
     </Directory>
@@ -202,9 +201,9 @@ Ce projet utilise un sous-domaine dédié pour servir les fichiers statiques afi
 ```
 <VirtualHost *:80>
     ServerName stage4all-static.local
-    DocumentRoot /var/www/stage4all/static
+    DocumentRoot /var/www/Projet-Web-Web4All-CESI/static
 
-    <Directory /var/www/stage4all/static>
+    <Directory /var/www/Projet-Web-Web4All-CESI/static>
         AllowOverride All
         Require all granted
     </Directory>
